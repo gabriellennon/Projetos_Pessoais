@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&family=Roboto&display=swap');
+
+
+/** Planos **/
+.containerPlano {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  left: 255px;
+  margin-top: 45px;
+}
+
+.plano {
+  background: #ffffff;
+  border-radius: 3px;
+  /* background: red; */
+  padding: 20px;
+  width: 18em;
+  display: inline-block;
+  margin: 1em 0 0 1.4em;
+  padding-bottom: 2em;
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  
+  
+}
+
+.plano:hover {
+  box-shadow: 0 4px 10px 0 rgba(24, 23, 23, 0.513);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.plano h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.815);
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* .plano:hover h4{
+  color: #ffffff;
+} */
+
+.btnPadrao {
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1bd59a;
+  font-size: 13px;
+  padding: 14px 22px;
+  box-shadow: 0 4px 10px 0 rgba(23,23,23,.1);
+  display: inline-block;
+  margin-left: 57px;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
+.btnPadrao:hover {
+  cursor: pointer;
+  box-shadow: none;
+  transition: 0.5s;
+  background-color: #17b885;
+}
+
+
+
+
+/* .itens-plano {
+  padding-left: 1.2em;
+}
+
+.itens-plano li {
+  font-size: 1em;
+    list-style: none;
+    border-bottom: 1px solid #acacac;
+    padding: .5em;
+    width: 14.8em;
+}
+
+.itens-plano span {
+  float: right;
+}
+
+
+
+.iconeCheck {
+  background: url('../../img/iconCheck.svg') no-repeat;
+  width: 18px;
+  height: 18px;
+}
+
+.iconeCheck {
+  background-position: -5px -5px;
+}
+
+.iconex {
+  background-position: -33px -5px;
+} */
+
+/* ideia cores letras: #0abde3    #2e86de  #FF843B*/

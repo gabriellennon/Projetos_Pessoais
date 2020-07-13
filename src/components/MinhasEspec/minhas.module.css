@@ -1,0 +1,106 @@
+body{
+  background: #fff;
+}
+
+.containerBox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.containerBox :nth-child(2){
+  background-image: url('../../img/relaxante.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.containerBox :nth-child(3){
+  background-image: url('../../img/perdrasquentes.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.containerBox :nth-child(4){
+  background-image: url('../../img/aromaterapia.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.containerBox :nth-child(5){
+  background-image: url('../../img/pontoGatilho.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.containerBox :nth-child(6){
+  background-image: url('../../img/prenatal.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.box {
+  transition: box-shadow .3s;
+  width: 180px;
+  height: 200px;
+  margin: 10px;
+  margin-top: 70px;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+  color: #ffffff;
+}
+.box:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.493);
+  opacity: 0.9;
+}
+
+.box h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+
+.box1 {
+  transition: box-shadow .3s;
+  width: 180px;
+  height: 200px;
+  margin: 10px;
+  margin-top: 70px;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+  background-image: url('../../img/massagemsueca.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+.box1:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.493); 
+  opacity: 0.9;
+}
+
+.box1 h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+
+.title {
+  background: rgba(0, 0, 0, .5);
+  color: #fdfdfdfd;
+  padding: .6rem;
+  text-align: center;
+  width: 100%;
+}

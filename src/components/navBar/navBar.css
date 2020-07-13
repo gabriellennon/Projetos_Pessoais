@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+nav {
+  background: #FFF;
+  padding: 10px;
+  
+  
+
+}
+
+nav > a{
+  text-decoration: none;
+  padding: 0 50px;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  background:transparent;
+  position: relative;
+  left: 150px;
+  bottom: 10px;
+}
+
+nav > a:hover{
+  color: rgb(58, 133, 58);
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+nav > img {
+  background: #FFF;
+}
+
+.iconWpp{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+  padding-left: 105px;
+}

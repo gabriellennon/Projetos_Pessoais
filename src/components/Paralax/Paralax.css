@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&family=Poppins:wght@500;700&family=Roboto:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.boxTitle {
+  border: 1px solid;
+  position: relative;
+  top: 150px;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+  background: #FFF;
+}
+
+.boxTitle h1 {
+  background: transparent;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../../img/relax7.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scrol {
+  height:500px;
+  background-color:#FFF;
+  font-size:15px
+}
+
+.scrol2 {
+  height:660px;
+  background-color:#FFF;
+  font-size:15px
+}
+
+.scrol h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+
+.quemSou {
+  border-bottom: 1px solid #F3B4A4;
+  border-radius: 4px;
+  width: 10%;
+  position: relative;
+  left: 45%;
+  top: 5%;
+}
+
+.especialidades {
+  border-bottom: 1px solid #F3B4A4;
+  border-radius: 4px;
+  width: 20%;
+  position: relative;
+  left: 40%;
+  top: 3%;
+}
+
+
+.scrol2 h3 {
+  border-bottom: 1px solid #F3B4A4;
+  border-radius: 4px;
+  width: 12%;
+  margin-left: 640px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+
+#ictopo{
+	height:55px; 
+	width:55px;
+	position: fixed;
+	right: 20px;
+	bottom: 60px;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
